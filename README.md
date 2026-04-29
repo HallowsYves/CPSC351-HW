@@ -21,6 +21,24 @@ Output: Total Diner Time (Turnaround Time): The full duration from sitting down 
 
 
 ### RoundRobin
+Round Robin Algorithm was chosen for this because it treats every ticket/order the same, giving it 3 minutes to cook every time until complete. To run the code, just do python3 roundrobin.py, and it should display everything. To change the orders, go to the main, and change the arrival times and cooking durations needed. The code will document each cook as it happens.
+
+Input: Ticket ID (Process ID): The way to differentiate multiple ticket orders.
+
+Input: Walk-in Time (Arrival Time): The exact moment a customer sits at the booth and places their order.
+
+Input: Cooking Duration (Burst Time): The total minutes the chef needs at the griddle to prepare that specific meal
+
+Output: Gantt (Gantt Chart): The time the meal is finished and leaves the kitchen.
+
+Output: Plate Served (Completion Time): The time the meal is finished and leaves the kitchen.
+
+Output: Hangry Wait Time (Wait Time): The time a customer spends sitting at the table before their food starts cooking.
+
+Output: Total Diner Time (Turnaround Time): The full duration from sitting down to being served
+
+Output: Average metrics: The average turnaround time, average waiting time, and context switches.
+
 
 ### Shortest Job First (SJF)
 
