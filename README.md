@@ -3,6 +3,10 @@
 
 At a bustling Waffle House during the morning rush, the chef functions as the central processor, carefully managing a constant stream of incoming customer order tickets. Each ticket represents a process where the arrival time marks a customer sitting down, and the burst time signifies the minutes required to prepare their specific meal. To prevent food from getting cold and to ensure the diner remains profitable, the team must balance kitchen output with customer satisfaction using various scheduling strategies. Chefs are experimenting with First Come First Serve to mimic a natural line, Shortest Job First to maximize turnover, and Round Robin to ensure every patron sees progress on their plate. Through this simulation, the group aims to highlight the trade-offs of each method, such as the "convoy effect" of a coffee order stuck behind a large platter or the risk of "starvation" for customers ordering complex meals.
 
+### Running The code
+To run any algorithm run:
+```python3 file_name.py```
+
 
 ### First Come First Serve (FCFS)
 First Come First Serve (FCFS) was chosen because it closely mimics how a natural line works. In a diner environment, customers operate on an intuitive social contract: the person who sits down first should be served first.
