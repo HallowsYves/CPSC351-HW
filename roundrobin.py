@@ -1,7 +1,7 @@
 from collections import deque
 
 def robin(tickets):
-    cooktime = 3         #this quantum is for the code to know how long to process each order
+    cooktime = 3         #this cooktime is for the code to know how long to process each order
     time = 0
     queue = deque()
     gantt = []
