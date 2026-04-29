@@ -37,7 +37,7 @@ def robin(tickets):
          ticket["remaining_time"] -= cook                 
          time += cook
          end_time = time
-         print(f"Current time: {time}, Ticket id({ticket["id"]}) cooked for {cook} minutes")      #added this to visualise when things are happening
+         print(f"Current time: {time}, Ticket id({ticket['id']}) cooked for {cook} minutes")      #added this to visualise when things are happening
 
          gantt.append((ticket["id"], start_time, end_time))  #the cook time and end times are all kepts into the gantt chart
 
@@ -47,10 +47,10 @@ def robin(tickets):
 
          if ticket["remaining_time"] == 0:    #if the ticket's duration is 0, this means it is finished.
             completion_time[ticket["id"]] = time
-            print(f"Ticket id({ticket["id"]}) finished cooking at time: {time}\n")
+            print(f"Ticket id({ticket['id']}) finished cooking at time: {time}\n")
          else: 
               queue.append(ticket)
-              print(f"Ticket id({ticket["id"]}) has {ticket["cooking_duration"]} minutes remaining to cook, goes to the back of queue.\n")
+              print(f"Ticket id({ticket['id']}) has {ticket['cooking_duration']} minutes remaining to cook, goes to the back of queue.\n")
 
     print("\nGantt Chart / Timeline:")      #this is just formatting the gantt chart
     for task_id, start, end in gantt:
