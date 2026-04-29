@@ -42,9 +42,26 @@ Output: Average metrics: The average turnaround time, average waiting time, and 
 
 ### Shortest Job First (SJF)
 
+Shortest Job First (SJF) was chosen because it allows the chef to complete the most amount of orders possible in a shorter time frame. By prioritizing the shortest orders, the chef is able to feed more customers quickly.
+To run the program, in your terminal, run the command 'python3 sjf.py'
+If this does not work, please try again with the command 'python proj3_algo1.py'
+
+Input: Order Ticket (Process ID), unique customer tickets for each order.
+
+Input: Arrival Time, the time in minutes that the customer is seated and places their order.
+
+Input: Cook time (Burst time), the time in minutes that it takes the chef to complete an order.
+
+Output: Gantt (Gantt Chart), chart displaying the times for when each order was being created.
+
+Output: Completion Time, the time the food is finished being prepared and served to the customer.
+
+Output: Turnaround Time, the total time from when the customer arrived to when their food was served. 
+
+Output: Waiting Time, the time the customer had to wait before their food started being prepared.
+
+Output: Average Metrics, the average turnaround time and average waiting time.
 
 
-
-Explanation of chosen algorithms.
 Input/output details, results, and comparisons.
 Key analysis and insights.
