@@ -86,8 +86,8 @@ def sjf_restaurant_orders(orders):
 
 if __name__ == "__main__":
     restaurant_orders = [
-        OrderTicket("P1", 0, 8), # arrives immediately, takes 8 mins
-        OrderTicket("P2", 1, 2), # arrives at 1 min, takes 2 mins
-        OrderTicket("P3", 3, 4) # arrives at 3 mins, takes 4 mins
+        OrderTicket("P1", 0, 5), # arrives immediately, takes 5 min
+        OrderTicket("P2", 3, 9), # arrives at 3 min, takes 9 min
+        OrderTicket("P3", 6, 6) # arrives at 6 min, takes 6 min
     ]
     sjf_restaurant_orders(restaurant_orders)
