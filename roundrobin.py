@@ -88,15 +88,13 @@ def robin(tickets):
 
 if __name__ == "__main__":
     # morning customers:
-    # 1. Grand Slam Ommlette  
-    # 2. Single Espresso 
-    # 3. Avocado Toast
-    # 4. Fried Rice
+    # 1. Solo Trucker  
+    # 2. Family of 4
+    # 3. Local Sheriff
     morning_tickets = [
-        {'id' : 1, 'walk_in_time': 0, 'cooking_duration': 8},
-        {'id' : 2, 'walk_in_time': 1, 'cooking_duration': 2},
-        {'id' : 3, 'walk_in_time': 3, 'cooking_duration': 4},
-        {'id' : 4, 'walk_in_time': 10, 'cooking_duration': 5},        
+        {'id' : 1, 'walk_in_time': 0, 'cooking_duration': 5},
+        {'id' : 2, 'walk_in_time': 3, 'cooking_duration': 9},
+        {'id' : 3, 'walk_in_time': 6, 'cooking_duration': 6}
     ]
     
     robin(morning_tickets)
