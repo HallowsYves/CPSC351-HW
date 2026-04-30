@@ -24,8 +24,8 @@ Output: Hangry Wait Time (Wait Time): The time a customer spends sitting at the 
 Output: Total Diner Time (Turnaround Time): The full duration from sitting down to being served
 
 
-### RoundRobin
-Round Robin Algorithm was chosen for this because it treats every ticket/order the same, giving it 3 minutes to cook every time until complete. To run the code, just do python3 roundrobin.py, and it should display everything. To change the orders, go to the main, and change the arrival times and cooking durations needed. The code will document each cook as it happens.
+### RoundRobin (RR)
+Round Robin Algorithm was chosen for this because it treats every ticket/order the same, giving it 3 minutes to cook every time until complete. To change the orders, go to the main, and change the arrival times and cooking durations needed. The code will document each cook as it happens.
 
 Input: Ticket ID (Process ID): The way to differentiate multiple ticket orders.
 
@@ -47,8 +47,6 @@ Output: Average metrics: The average turnaround time, average waiting time, and 
 ### Shortest Job First (SJF)
 
 Shortest Job First (SJF) was chosen because it allows the chef to complete the most amount of orders possible in a shorter time frame. By prioritizing the shortest orders, the chef is able to feed more customers quickly.
-To run the program, in your terminal, run the command 'python3 sjf.py'
-If this does not work, please try again with the command 'python proj3_algo1.py'
 
 Input: Order Ticket (Process ID), unique customer tickets for each order.
 
@@ -65,7 +63,3 @@ Output: Turnaround Time, the total time from when the customer arrived to when t
 Output: Waiting Time, the time the customer had to wait before their food started being prepared.
 
 Output: Average Metrics, the average turnaround time and average waiting time.
-
-
-Input/output details, results, and comparisons.
-Key analysis and insights.
